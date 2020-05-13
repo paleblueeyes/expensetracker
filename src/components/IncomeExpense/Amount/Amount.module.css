@@ -1,0 +1,18 @@
+.Amount {
+    margin: 10px 10px; 
+    display: flex;
+}
+
+.Amount h4 {
+    margin-bottom: 5px; 
+    margin-right: 10px; 
+
+}
+
+.Red {
+    color: #fa163f
+}
+
+.Green {
+    color: #21bf73
+}

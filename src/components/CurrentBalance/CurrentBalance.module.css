@@ -1,0 +1,12 @@
+.CurrentBalance {
+
+    text-align: center;
+    transition: opacity 0.5s ease-out;
+}
+
+.CurrentBalance h2 {
+    font-style: italic;
+    color: #8ec6c5; 
+    font-size: 2rem;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,80 @@
+.Content {
+	width: 80%; 
+	height: 170px;
+	box-sizing: border-box;
+	transition: max-height 0.3s ease-out;
+	background-color: #400082;
+	border-radius: 5px;
+	color: white;
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+}
+
+.Show {
+	max-height: 400px; 
+}
+
+.Hide {
+	max-height: 0;
+}
+
+.Red {
+	border-color: #fa163f;
+}
+
+.Green {
+	border-color: #21bf73;
+}
+
+.Content input {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 60%; 
+    height: 24px; 
+    padding: 0 3px;
+    border: none;
+    border-radius: 2px;
+    display: block; 
+    margin: 10px auto; 
+}
+
+.Content button {
+    box-sizing: border-box;
+    padding: 3px; 
+    border-radius: 2px;
+    width: 60%;
+    background-color: #fe346e;
+    border: none;
+    display: block;
+    margin: 18px auto 0; 
+    color: white; 
+    font-size: 0.9rem;
+}
+
+.close {
+	top: 0; 
+	right: 0;
+	margin-top: 9px; 
+	margin-right: 10px;  
+	position: absolute;
+	width: 15px; 
+	height: 15px; 
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.close p:hover {
+	text-shadow: 2px 0px 10px rgba(255, 255, 255, 1);
+    transition: text-shadow 0.2s ease-in;
+	
+}
+
+@media screen and (min-width: 500px) {
+	.Content {
+		width: 350px; 
+	}
+}

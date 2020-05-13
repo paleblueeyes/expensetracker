@@ -1,0 +1,31 @@
+.Item {
+	min-width: 300px;
+	height: 70px;
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(186, 186, 186, 1);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(186, 186, 186, 1);
+	box-shadow: 1px 1px 5px 1px rgba(186, 186, 186, 1);
+	margin: 15px 0; 
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+
+
+.Left {
+	margin-left: auto;
+}
+
+.Right {
+	margin-right: 20px;
+}
+
+
+.Red {
+	border-right: 2px solid #fa163f; 
+}
+
+.Green {
+    border-right: 2px solid #21bf73; 
+}
