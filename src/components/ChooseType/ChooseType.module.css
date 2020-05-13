@@ -7,6 +7,7 @@
 .ChooseType p {
     margin: 10px 10px; 
     font-size: 0.8rem;
+    cursor: pointer;
 }
 
 .highlight {

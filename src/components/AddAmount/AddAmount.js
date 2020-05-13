@@ -12,7 +12,7 @@ const AddAmount = (props) => {
 		<Aux>
 			<p
 				onClick={props.toggleAmountHandler}
-				style={{ marginBottom: "10px" }}
+				style={{ marginBottom: "10px", cursor: "pointer"}}
 			>
 				<strong>{props.show ? "HIDE" : "ADD ITEM+"}</strong>
 			</p>
